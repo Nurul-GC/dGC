@@ -1,0 +1,2 @@
+schedule>=1.0.0
+PyAudio>=0.2.11
