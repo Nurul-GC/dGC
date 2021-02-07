@@ -70,6 +70,7 @@ class DespertadorGC:
         else:
             pass
 
+        # criando o loop para autenticação das tarefas pendentes
         while True:
             run_pending()
 
@@ -87,6 +88,7 @@ class DespertadorGC:
             run_pending()
 
     def funcao(self):
+        """função responsavel pelos detalhes da execução"""
         print(f"[!!] - Executando Alarme {self.titulo} definido por {self.nome}...")
         reprodutor()
 
