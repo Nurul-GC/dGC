@@ -1,3 +1,13 @@
+# ******************************************************************************
+#  Direitos Autorais (c) 2019-2021 Nurul-GC                                    *
+#                                                                              *
+#  Jovem Programador                                                           *
+#  Estudante de Engenharia de Telecomunicações                                 *
+#  Tecnologia de Informação e Medicina.                                        *
+#  Foco Fé Força Paciência                                                     *
+#  Allah no Comando.                                                           *
+# ******************************************************************************
+
 from reprodutorWAV import reprodutor
 from schedule import *
 from time import sleep
@@ -42,6 +52,7 @@ class DespertadorGC:
 -----------------------------------------------
 """)
 
+        # definindo as tarefas de acordo ao dia definido
         if dia == '1':
             every().sunday.at(tempo).do(self.funcao)
         elif dia == '2':

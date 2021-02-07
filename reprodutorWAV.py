@@ -1,4 +1,12 @@
-"""PyAudio Example: Play a WAVE file."""
+# ******************************************************************************
+#  Direitos Autorais (c) 2019-2021 Nurul-GC                                    *
+#                                                                              *
+#  Jovem Programador                                                           *
+#  Estudante de Engenharia de Telecomunicações                                 *
+#  Tecnologia de Informação e Medicina.                                        *
+#  Foco Fé Força Paciência                                                     *
+#  Allah no Comando.                                                           *
+# ******************************************************************************
 
 import pyaudio
 import wave
