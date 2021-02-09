@@ -8,9 +8,8 @@
 #  Allah no Comando.                                                           *
 # ******************************************************************************
 
-from reprodutorWAV import reprodutor
+from rWav.reprodutorWAV import reprodutor
 from schedule import *
-from time import sleep
 
 
 class DespertadorGC:

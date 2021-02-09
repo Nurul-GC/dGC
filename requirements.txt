@@ -1,2 +1,4 @@
 schedule>=1.0.0
 PyAudio>=0.2.11
+pyqt5
+notify2>=0.3
