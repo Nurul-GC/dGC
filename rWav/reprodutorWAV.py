@@ -19,9 +19,10 @@ def reprodutor():
 -------------------------------------------------------
 """)
     CHUNK = 1024
+    AUDIO = "../sound/Idrada.wav"
 
     # definindo a localização do audio para a sua leitura
-    wf = wave.open("../sound/Franco.wav", 'rb')
+    wf = wave.open(AUDIO, 'rb')
 
     # iniciando a instância do PyAudio
     p = pyaudio.PyAudio()
