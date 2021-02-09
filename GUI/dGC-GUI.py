@@ -19,7 +19,7 @@ class DespertadorGC:
     def __init__(self):
         self.gc = QApplication(argv)
         self.ferramentas = QWidget()
-        self.ferramentas.setPalette(QPalette(QColor('darkred')))
+        self.ferramentas.setPalette(QPalette(QColor(250, 117, 94)))
         self.ferramentas.setWindowIcon(QIcon("../img/favicon_io/favicon-32x32.png"))
 
         self.hora = None
