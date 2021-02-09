@@ -21,7 +21,7 @@ def reprodutor():
     CHUNK = 1024
 
     # definindo a localização do audio para a sua leitura
-    wf = wave.open("sound/Franco.wav", 'rb')
+    wf = wave.open("../sound/Franco.wav", 'rb')
 
     # iniciando a instância do PyAudio
     p = pyaudio.PyAudio()
