@@ -2,10 +2,15 @@
 
     pequeno e simples agendador de tarefas - DespertadorGC
 
-## Exemplos
+## Exemplos CLI
 
-![](img/01.png)
-![](img/02.png)
+![](img/exemplo_cli_01.png)
+![](img/exemplo_cli_02.png)
+
+## Exemplos GUI
+
+![](img/exemplo_gui_alarme_diario.png)
+![](img/exemplo_gui_alarme_semanal.png)
 
 ## Requisitos
 
